@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8"
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title> Assignment 5 !        </title>
+        <title> Assignment 5! </title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
         <svg width="100%" height="300px" xmlns="http://www.w3.org/2000/svg">
@@ -14,8 +15,39 @@
             <polygon points="300,150 350,250 250,250" fill="red" ></polygon>
         </svg>
 
-        <h1>Hello World!</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./views/two.html">Page Two</a></li>
+                <li><a href="./views/three.html">Page Three</a></li>
+            </ul>
+        </nav>
 
-        <p>Assignment5 - This is the index.html page.</p>
+        <h1>Assignment 5</h1>
+
+        <h2 class="css-question">How to Apply CSS to HTML</h2>
+
+        <p class="css-question">
+            To include an external CSS file in an HTML document, use the &lt;link&gt; element within the &lt;head&gt; section.
+            Here is an example: <br>
+            <code>&lt;link rel="stylesheet" href="styles.css"&gt;</code>
+        </p>
+
+        <h2 class="js-question">How to Use JavaScript in a Webpage</h2>
+        <p class="js-question">
+            To link to an external JavaScript file, use the &lt;script&gt; element right before the closing &lt;/body&gt; tag. Example: <br>
+            <code>&lt;script src="scripts.js"&gt;&lt;/script&gt;</code>
+            <br>
+            To write JavaScript directly within an HTML file, use the &lt;script&gt; element. Here's an example: <br>
+            <pre>
+    &lt;script&gt;
+    console.log('Hello, world!');
+    &lt;/script&gt;
+            </pre>
+        </p>
+    
+        <script src="scripts.js"></script>
+
+    <p>Assignment5 - This is the index.html page.</p>
     </body>
 </html>
