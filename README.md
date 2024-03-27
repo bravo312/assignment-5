@@ -6,7 +6,7 @@
 ## Features:
     - Has a homepage (index.html) with links to other pages, and information pertaining to html, css.
     - The two.html page has a basic list of coding resources.
-    - The three.html page has a simple svg animaiton. 
+    - The three.html page has a simple svg animation. 
     - See top of tab to view a simple black and white favicon.
 
 ## Contact:
