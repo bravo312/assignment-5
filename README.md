@@ -11,5 +11,4 @@
 
 ## Contact:
     - Ayman Baydoun
-    - 922802787
     - abaydoun@sfsu.edu
